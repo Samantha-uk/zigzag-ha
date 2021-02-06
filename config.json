@@ -1,6 +1,6 @@
 {
   "name": "Zigzag",
-  "version": "0.2.0-alpha.26",
+  "version": "0.2.0-alpha.29",
   "slug": "zigzag",
   "description": "A Zigbee visualisation system aimed at assisting users monitor and optimise their Zigbee mesh.",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -9,6 +9,9 @@
   "boot": "auto",
   "ingress": true,
   "ingress_entry": "./zigzag-panel",
+  "ports": {
+    "1962/tcp": 1962
+  },
   "homeassistant": "2020.12.2",
   "homeassistant_api": true,
   "hassio_api": true,
